@@ -1,31 +1,19 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "readme-player",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.0.0",
-    "next": "15.0.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.6.0"
+    "hono": "^4.13.16"
   },
   "devDependencies": {
-    "@types/node": "^22",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9",
-    "eslint-config-next": "15.0.3",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.15",
-    "typescript": "^5"
+    "@cloudflare/workers-types": "^5.20261102.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.156.1"
   }
 }
