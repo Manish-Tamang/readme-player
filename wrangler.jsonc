@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "readme-player",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "minify": true,
+  "observability": { "enabled": true }
+
+  // LASTFM_API_KEY and LASTFM_USERNAME are secrets, see the README.
+
+  // To serve from your own domain instead of workers.dev, uncomment this.
+  // The domain must be on your Cloudflare account.
+  // "routes": [{ "pattern": "player.example.com", "custom_domain": true }]
+}
