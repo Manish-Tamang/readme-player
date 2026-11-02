@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 60 60" role="img" aria-label="readme-player logo">
+    <style>
+        .spin { animation: spin 4s linear infinite; transform-origin: 30px 30px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+    <circle cx="30" cy="30" r="30" fill="#121212" />
+    <circle cx="30" cy="30" r="29.2" fill="none" stroke="#3d444d" stroke-width="1" />
+    <circle cx="30" cy="30" r="26.5" fill="none" stroke="#2a2a2a" stroke-width="0.5" />
+    <circle cx="30" cy="30" r="23.5" fill="none" stroke="#2a2a2a" stroke-width="0.5" />
+    <circle cx="30" cy="30" r="20.5" fill="none" stroke="#2a2a2a" stroke-width="0.5" />
+    <g class="spin">
+        <circle cx="30" cy="30" r="15" fill="#1db954" />
+        <path d="M30 15a15 15 0 0 1 15 15H30z" fill="#fff" fill-opacity="0.25" />
+        <path d="M30 45a15 15 0 0 1-15-15h15z" fill="#fff" fill-opacity="0.25" />
+    </g>
+    <circle cx="30" cy="30" r="1.6" fill="#121212" />
+</svg>
