@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/logo.svg" width="96" height="96" alt="" />
-
 <h1>readme-player</h1>
 
 <p><strong>Your Spotify now playing, live on your GitHub profile.</strong></p>
@@ -128,8 +126,14 @@ Open your deployment's URL for a snippet with your URL already filled in, or pas
 ```html
 <a href="https://YOUR_URL/open">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://YOUR_URL/svg?theme=dark" />
-    <img src="https://YOUR_URL/svg?theme=light" alt="What I'm listening to on Spotify" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://YOUR_URL/svg?theme=dark"
+    />
+    <img
+      src="https://YOUR_URL/svg?theme=light"
+      alt="What I'm listening to on Spotify"
+    />
   </picture>
 </a>
 ```
@@ -146,13 +150,13 @@ Add a comma after the `observability` line, then deploy again.
 
 ## Endpoints
 
-| Route | Returns |
-| --- | --- |
-| `/` | A README snippet for this deployment |
+| Route              | Returns                                             |
+| ------------------ | --------------------------------------------------- |
+| `/`                | A README snippet for this deployment                |
 | `/svg?theme=light` | The card for light backgrounds. This is the default |
-| `/svg?theme=dark` | The card for dark backgrounds |
-| `/open` | A redirect to the current song on Spotify |
-| `/json` | The current song as JSON, with CORS enabled |
+| `/svg?theme=dark`  | The card for dark backgrounds                       |
+| `/open`            | A redirect to the current song on Spotify           |
+| `/json`            | The current song as JSON, with CORS enabled         |
 
 Example `/json` response:
 
