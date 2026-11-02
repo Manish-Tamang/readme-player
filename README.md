@@ -1,6 +1,21 @@
-# readme-player
+<div align="center">
 
-Show what you're listening to on your GitHub profile README, as a spinning vinyl with the album cover in the middle.
+<img src="assets/logo.svg" width="96" height="96" alt="" />
+
+<h1>readme-player</h1>
+
+<p><strong>Your Spotify now playing, live on your GitHub profile.</strong></p>
+
+<p>A spinning vinyl card for any README, self-hosted on Cloudflare Workers.</p>
+
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
+[![Hono](https://img.shields.io/badge/Hono-E36002?logo=hono&logoColor=white)](https://hono.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Last.fm](https://img.shields.io/badge/Last.fm-D51007?logo=lastdotfm&logoColor=white)](https://www.last.fm)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com)
+[![GitHub stars](https://img.shields.io/github/stars/Manish-Tamang/readme-player?style=flat&logo=github)](https://github.com/Manish-Tamang/readme-player/stargazers)
+
+<br />
 
 <a href="https://manishtamang.com/api/now-playing/open">
   <picture>
@@ -8,6 +23,8 @@ Show what you're listening to on your GitHub profile README, as a spinning vinyl
     <img src="https://manishtamang.com/api/now-playing/svg?theme=light" alt="What I'm listening to on Spotify" />
   </picture>
 </a>
+
+</div>
 
 - Spins while a song is playing and stops on the last played song when nothing is
 - Matches GitHub's light and dark themes
